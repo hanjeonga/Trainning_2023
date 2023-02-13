@@ -4,7 +4,6 @@
 }
 
 html[theme="dark-mode"] {
-  /* ! */
   filter: invert(100%) hue-rotate(180deg);
 }
 
@@ -25,7 +24,6 @@ body {
 }
 
 .row {
-  /* ! */
   display: flex;
 }
 
@@ -36,13 +34,11 @@ body {
   border-radius: 4px;
   background-color: white;
   cursor: pointer;
-  /* ! */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   transition: 0.2s;
-  /* ! */
 }
 
 .key:hover {
@@ -96,7 +92,6 @@ body {
 }
 
 .menu {
-  /* ! */
   display: flex;
 }
 
@@ -122,7 +117,6 @@ body {
   transition: 0.4s;
 }
 
-/* ! */
 .slider::before {
   position: absolute;
   content: "";
@@ -140,7 +134,6 @@ input:checked + .slider {
 }
 
 input:checked + .slider::before {
-  /* ! */
   transform: translateX(26px);
 }
 
@@ -151,9 +144,7 @@ input:checked + .slider::before {
 }
 
 .select-box select {
-  /* ! */
   font-size: 0.9rem;
-  /* ! */
   padding: 2px 5px;
   height: 34px;
   width: 200px;
